@@ -14,7 +14,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/xxjwxc/toon"
+	"github.com/xxjwxc/gotoon"
 )
 
 func main() {
@@ -22,7 +22,7 @@ func main() {
 	var data interface{}
 	json.Unmarshal([]byte(jsonData), &data)
 	
-	toonOutput, _ := toon.Encode(data, toon.DefaultOptions())
+	toonOutput, _ := gotoon.Encode(data, gotoon.DefaultOptions())
 	fmt.Println(toonOutput)
 }
 ```
