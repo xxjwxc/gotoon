@@ -1,4 +1,5 @@
 # gotoon
+- 人工智能TOON（Token-Oriented Object Notation）格式化工具
 - golang库将json数据结构转成‌TOON（Token-Oriented Object Notation）输出
 - json数据结构转换为TOON格式，便于阅读和调试
 
